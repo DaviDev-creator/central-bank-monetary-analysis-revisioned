@@ -20,7 +20,7 @@ class CentralBankScraper:
 
     def process_links(self, links: List[str], instrument: str) -> str:
         combined_data = []
-        for link in links[:3]: # Limit for speed
+        for link in links:
             try:
                 # Using a simplified prompt for the LLM scraper
                 result = self.scraper.run(
@@ -30,7 +30,7 @@ class CentralBankScraper:
                 combined_data.append(f"Source {link}: {result}")
             except Exception as e:
                 combined_data.append(f"Error scraping {link}: {str(e)}")
-        
+
         return "\n\n".join(combined_data)
 
     def execute(self, instrument: str, date: str):
