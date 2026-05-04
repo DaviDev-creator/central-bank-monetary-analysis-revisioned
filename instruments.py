@@ -1,15 +1,41 @@
 financial_instruments = {
     "EURUSD": [
         "https://www.ecb.europa.eu",
-        "https://www.federalreserve.gov"
+        "https://www.federalreserve.gov",
+        "https://www.bankofengland.co.uk",
+        "https://www.boj.or.jp/en",
+        "https://www.snb.ch/en",
+        "https://www.bankofcanada.ca",
+        "https://www.rba.gov.au",
+        "https://www.rbnz.govt.nz",
+        "https://www.norges-bank.no/en",
+        "https://www.riksbank.se/en-gb"
     ],
     "NSDQ": [
         "https://www.nasdaq.com",
-        "https://www.federalreserve.gov"
+        "https://www.federalreserve.gov",
+        "https://www.ecb.europa.eu",
+        "https://www.bankofengland.co.uk",
+        "https://www.boj.or.jp/en",
+        "https://www.snb.ch/en",
+        "https://www.bankofcanada.ca",
+        "https://www.rba.gov.au",
+        "https://www.rbnz.govt.nz",
+        "https://www.norges-bank.no/en",
+        "https://www.riksbank.se/en-gb"
     ],
     "GOLD": [
         "https://www.worldgoldcouncil.org",
-        "https://www.federalreserve.gov"
+        "https://www.federalreserve.gov",
+        "https://www.ecb.europa.eu",
+        "https://www.bankofengland.co.uk",
+        "https://www.boj.or.jp/en",
+        "https://www.snb.ch/en",
+        "https://www.bankofcanada.ca",
+        "https://www.rba.gov.au",
+        "https://www.rbnz.govt.nz",
+        "https://www.norges-bank.no/en",
+        "https://www.riksbank.se/en-gb"
     ],
     "FED": ["https://www.federalreserve.gov"],
     "BCE": ["https://www.ecb.europa.eu"],
