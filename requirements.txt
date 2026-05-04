@@ -1,0 +1,5 @@
+scrapegraphai
+tavily-python
+openbb
+requests
+python-dotenv
